@@ -2,13 +2,27 @@
 
 function move(left, top){
   let sonicElm = document.querySelector ("#sonic-box");
-  sonicElm.style.top = "300px"
-  sonicElm.style.left = "100px"
+  sonicElm.style.top = top;
+  sonicElm.style.left = left;
 }
 
 
 
-move()
+move("200px", "100px")
 
 
+
+
+
+
+
+
+
+
+
+
+function setRandomRing(){
+    let sonicRing = document.querySelector("#ring-box");
+    
+}
 
