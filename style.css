@@ -1,0 +1,24 @@
+.gameboard {
+    position: relative;
+    width: 500px;
+    height: 500px;
+    background-color: lightblue;
+}
+
+#sonic-box {
+    position: absolute;
+}
+
+#sonic-img{
+    width: 100px;
+    height: 100px;
+}
+#ring-box{
+    position: absolute;
+    left: 50px;
+    top: 150px;
+}
+#sonic-ring{
+    width: 50px;
+    height: 50px;
+}
